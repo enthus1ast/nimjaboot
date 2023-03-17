@@ -1,0 +1,11 @@
+{% extends "templates/partials/_master.nimja" %}
+{% block title %}Error {{errorCode}}{% endblock %}
+{% block content %}
+<h1>{{errorCode}}</h1>
+{% if errorMessage != "" %}
+  <div>
+    {{errorMessage}}
+  </div>
+{% endif %}
+{% endblock %}
+

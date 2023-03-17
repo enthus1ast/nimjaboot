@@ -1,0 +1,23 @@
+{% extends "templates/partials/_master.nimja" %}
+{% block content %}
+
+<h1>Hello, world!</h1>
+{# {% for idx in 0..10 %}
+  index
+{%- endfor %} #}
+
+{#
+
+{% for (idx, page) in pages.pairs() %}
+  <a href="/id/{{idx}}">{{idx}}
+    <div class="container">
+      <h2>{{page.title}}</h2>
+      <p>{{page.author}}</p>
+      <p>{{page.teaser}}</p>
+    </div>
+  </a>
+{%- endfor %}
+#}
+
+{% endblock %}
+

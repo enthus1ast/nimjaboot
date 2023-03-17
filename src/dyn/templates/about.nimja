@@ -1,0 +1,4 @@
+{% extends "templates/partials/_master.nimja" %}
+{% block content %}
+<h1>{% block title %}About{% endblock %}</h1>
+{% endblock %}
