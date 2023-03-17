@@ -8,18 +8,18 @@ proc dyn(dir, name: string): int =
   if not dirExists(dir):
     info "Creating: " & dir
     createDir(dir)
-  copyDir(getAppDir() / "dyn" / "public", dir / "public")
-  copyDir(getAppDir() / "dyn" / "templates", dir / "templates")
+  copyDir(getAppDir() / "nimjaboot" / "dyn" / "public", dir / "public")
+  copyDir(getAppDir() / "nimjaboot" / "dyn" / "templates", dir / "templates")
 
-  # copyFile(getAppDir() / "dyn" / "hcrex.nims", dir / "name.nims")
-  copyFile(getAppDir() / "dyn" / "hcrex.nims", dir / name & ".nims")
-  copyFile(getAppDir() / "dyn" / "exjester.nim", dir / name & ".nim")
-  # copyFile(getAppDir() / "dyn" / "exjester.nims", dir / name & ".nims")
+  # copyFile(getAppDir() / "nimjaboot" / "dyn" / "hcrex.nims", dir / "name.nims")
+  copyFile(getAppDir() / "nimjaboot" / "dyn" / "hcrex.nims", dir / name & ".nims")
+  copyFile(getAppDir() / "nimjaboot" / "dyn" / "exjester.nim", dir / name & ".nim")
+  # copyFile(getAppDir() / "nimjaboot" / "dyn" / "exjester.nims", dir / name & ".nims")
 
-  copyFile(getAppDir() / "dyn" / "tmpls.nims", dir / "tmpls.nims")
-  copyFile(getAppDir() / "dyn" / "tmpls.nim", dir / "tmpls.nim")
+  copyFile(getAppDir() / "nimjaboot" / "dyn" / "tmpls.nims", dir / "tmpls.nims")
+  copyFile(getAppDir() / "nimjaboot" / "dyn" / "tmpls.nim", dir / "tmpls.nim")
 
-  copyFile(getAppDir() / "dyn" / "shared.nim", dir / "shared.nim")
+  copyFile(getAppDir() / "nimjaboot" / "dyn" / "shared.nim", dir / "shared.nim")
 
 
 

@@ -1,8 +1,0 @@
-{% extends "templates/partials/_master.nimja" %}
-{% block title %}Detail page {{id}}{% endblock %}
-{% block content %}
-  Ipsum veniam amet est suscipit repellendus inventore Nemo dolores totam repellat eaque consequuntur in.
-  Sapiente nulla ducimus animi consequatur neque? Distinctio nobis at soluta accusamus suscipit tempora Itaque autem ducimus.
-  <a href="/id/{{id}}">{{id}}</a>
-{% endblock %}
-

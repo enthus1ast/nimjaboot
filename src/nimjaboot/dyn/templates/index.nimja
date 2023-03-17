@@ -1,0 +1,7 @@
+{% extends "templates/partials/_master.nimja" %}
+{% block content %}
+
+<h1>Hello, world!</h1>
+
+{% endblock %}
+
